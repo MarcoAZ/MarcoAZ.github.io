@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	color: white;
+	font-family: Hind, sans-serif;
+	font-size: 18px;
+}
+
+.container{
+	/*width:960px;*/
+	margin:0 auto;
+	text-align:center;
+}
+
+/* //////////////////// HEADER //////////////////// */
+/* //////////////////// HEADER //////////////////// */
+
+.header{
+	background: #4b8f45;
+	padding-top: 58px;
+	padding-bottom: 25px;
+	box-shadow: 0 1.5em 0.5em -0.5em #5fb656;
+	position: relative;
+	z-index: 5;
+}
+
+.header h1{
+	font-size: 95px;
+	padding-bottom: 46px;
+}
+
+.header p{
+	font-size: 26px;
+}
+
+.nav{
+	padding-top: 25px;
+	background: #6ccf62;
+	height: 150px;
+	box-shadow: 0 1.5em 0.5em -0.5em #c2ebbe;
+}
+.nav ul{
+	list-style-type: none;
+}
+
+.nav ul li{
+	display: inline-block;
+}
+
+.gamedev{
+	width:260px;
+	height:123px;
+	background-image: url(images/controller.png);
+}
+.gamedev:hover{
+	background-image: url(images/controllerHover.png);
+}
+
+.webdev{
+	width:238px;
+	height:123px;
+	background-image: url(images/cpu.png);
+}
+.webdev:hover{
+	background-image: url(images/cpuHover.png);
+}
+
+.blog{
+	width:239px;
+	height:123px;
+	background-image: url(images/bubble.png);
+}
+.blog:hover{
+	background-image: url(images/bubbleHover.png);
+}
+
+.arrow{
+	width: 600px;
+	height: 78px;
+	margin-top: 22px;
+	background-image: url(images/controllerSelect.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+
+/* //////////////////// END OF HEADER //////////////////// */
+/* //////////////////// END OF HEADER //////////////////// */
+
+/* //////////////////// BODY //////////////////// */
+/* //////////////////// BODY //////////////////// */
+
+
+.gameProjectsBox{
+	padding-top: 80px;
+	width: 704px;
+	height: 683px;
+	display: inline-block;
+}
+
+.gameProjects img{
+	float: left;
+}
+
+.box{
+	float:left;
+	margin: 20px;
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position: relative;
+	text-indent: -9999px;
+}
+
+.box a{
+	text-decoration:none;
+	color: red;
+	width:300px;
+	height:300px;
+}
+
+.overlay{
+	text-indent: 0px;
+	position: absolute;
+	background:rgba(130,130,130,.75);
+	text-align:center;
+	height:160px;
+	width:300px;
+	margin-top:140px;
+	opacity:0;
+	-webkit-transition: opacity 0.25s ease;
+	-moz-transition: opacity 0.25s ease;
+}
+.box:hover .overlay{
+	opacity:1;
+}
+
+.gameDetails{
+	padding:15px;
+}
+.gameDetails h3{
+	font-size: 24px;
+}
+
+/* //////////////////// END BODY //////////////////// */
+/* //////////////////// END BODY //////////////////// */
+
+/* //////////////////// FOOTER //////////////////// */
+/* //////////////////// FOOTER //////////////////// */
+
+
+.links{
+	background: #6ccf62;
+	height: 87px;
+	padding-top: 20px;
+}
+
+.links ul{
+	list-style-type: none;
+}
+
+.links ul li{
+	display: inline-block;
+	padding: 10px;
+	background-repeat: no-repeat;
+}
+
+.links ul li a{
+	float: left;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+}
+
+.linkedin {
+	width:60px;
+	height:60px;
+	background-image: url("images/linked.png");
+}
+.linkedin:hover{
+	background-image: url("images/linkedHover.png");
+}
+
+.reddit{
+	margin: 5px 0 0 0;
+	width:60px;
+	height:60px;
+	background-image: url("images/reddit.png");
+}
+.reddit:hover{
+	background-image: url("images/redditHover.png");
+}
+
+.github{
+	width:60px;
+	height:60px;
+	background-image: url("images/git.png");
+}
+.github:hover{
+	background-image: url("images/gitHover.png");
+}
+
+.footer{
+	height: 54px;
+	background: #4b8f45;
+	padding-top: 22px;
+}
+
+
+/* //////////////////// END FOOTER //////////////////// */
+/* //////////////////// END FOOTER //////////////////// */
