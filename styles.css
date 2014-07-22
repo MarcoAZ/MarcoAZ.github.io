@@ -49,6 +49,13 @@ body{
 	display: inline-block;
 }
 
+.nav ul li a{
+	float: left;
+	width:260px;
+	height:123px;
+	text-indent: -9999px;
+}
+
 .gamedev{
 	width:260px;
 	height:123px;
@@ -112,6 +119,7 @@ body{
 	overflow:hidden;
 	position: relative;
 	text-indent: -9999px;
+	box-shadow:1em 1em 0.5em -0.5em #c2ebbe;
 }
 
 .box a{
@@ -137,10 +145,10 @@ body{
 	opacity:1;
 }
 
-.gameDetails{
+.boxDetails{
 	padding:15px;
 }
-.gameDetails h3{
+.boxDetails h3{
 	font-size: 24px;
 }
 

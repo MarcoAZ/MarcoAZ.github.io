@@ -1,0 +1,16 @@
+.arrow{
+	background-image: url("images/cpuSelect.png");
+	margin-left: -60px;
+}
+
+.webProjectsBox{
+	padding-top: 80px;
+	width: 704px;
+	height: 400px;
+	display: inline-block;
+}
+
+.webProjectsBox img{
+	float:left;
+	background-size:cover;
+}
