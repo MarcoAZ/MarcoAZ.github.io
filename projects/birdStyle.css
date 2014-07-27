@@ -1,0 +1,60 @@
+.blurb
+{
+	color:black;
+	padding: 0px 180px;
+}
+
+.blurb p
+{
+	padding: 15px;
+	display: inline-block;
+}
+
+.blurb h1
+{
+	margin-top: 60px;
+	font-size: 72px;
+}
+
+.box
+{
+	text-indent: 0px;
+}
+
+.screenshots
+{
+	display: inline-block;
+}
+
+.gameLinks
+{
+	margin: 15px;
+	width: 149px;
+	height: 37px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.gameLinks a {
+    float: left;
+    width: 149px;
+    height: 37px;
+    text-indent: -9999px;
+}
+
+.one
+{
+	background-image: url("../images/gameLink.png");
+}
+
+.one:hover
+{
+		background-image: url("../images/gameLinkHover.png");
+}
+.two
+{
+	background-image: url("../images/gameLinkTwo.png");
+}
+.two:hover
+{
+		background-image: url("../images/gameLinkHoverTwo.png");
+}
