@@ -1,7 +1,9 @@
+/* this is the default style sheet for every project page */
+
 .blurb
 {
 	color:black;
-	padding: 0px 180px;
+	padding: 0px 480px;
 }
 
 .blurb p

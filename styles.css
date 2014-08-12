@@ -99,7 +99,7 @@ body{
 .arrow{
 	width: 600px;
 	height: 78px;
-	margin-top: 22.5px;
+	margin-top: 22px;
 	background-image: url(images/controllerSelect.png);
 	background-repeat: no-repeat;
 	display: inline-block;
