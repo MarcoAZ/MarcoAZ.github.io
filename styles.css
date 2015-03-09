@@ -35,6 +35,23 @@ body{
 	font-size: 26px;
 }
 
+/*shrinking header changes*/
+.headerShrink
+{
+	background: #4b8f45;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0.75em 0.5em -0.5em #5fb656;
+	z-index: 5;
+}
+
+.headerShrink p
+{
+	font-size: 20px;
+/*	text-align: left;*/
+}
+/*end of shrink styling*/
+
 .ribbon
 {
 	float: left;
@@ -68,6 +85,21 @@ body{
 	height:123px;
 	text-indent: -9999px;
 }
+
+/*nav shrink and expand*/
+.navExpand
+{
+	padding-top: 125px;
+}
+
+.navShrink
+{
+	z-index: 4;
+	width: 100%;
+	position: fixed;
+	padding-top: 20px;
+}
+/*end of nav shrink and expand*/
 
 .gamedev{
 	width:260px;
